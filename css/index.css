@@ -1,0 +1,154 @@
+header{
+    background-image: url(../img/Christmas-background-design-Graphics-6113497-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+    height: 100vh;
+}
+body{
+    font-family: 'Dancing Script';
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 40px;
+    font-weight: 700;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ /* .layer{
+    background-color: rgba(40, 41, 46, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} */
+.caption{
+    display: flex;
+    justify-self: center;
+}
+header .slid{
+    position: fixed;
+    top: 0;
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    
+
+}
+header .slid ul{
+    list-style: none;
+    
+}
+.icon{
+    cursor: pointer;
+}
+.icon i{
+    color: rgb(233, 13, 32);
+}
+
+header .box{
+    background-color:rgb(233, 13, 32) ;
+    color: white;  
+}
+
+/* header .box li{
+    border-bottom: 1px solid rgb(151, 128, 128);
+    
+} */
+header .slid a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.singers-container .singer {
+  
+    color:rgb(233, 13, 32) ;
+
+    cursor: pointer;
+}
+
+.singercontent1{
+    display: none;
+}
+.singercontent2{
+    display: none;
+}
+.singercontent3{
+    display: none;
+}
+.singercontent4{
+    display: none;
+}
+.col-md-3{
+    border:1px solid white;
+    padding: 20px;
+}
+#Duration{
+ 
+  color:rgba(233, 13, 32) ;
+  font-size: 20px;
+
+}
+.border-Section{
+    border: 3px solid green;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 40px;
+    width: 100%;
+    text-align: center;
+}
+#Contact{
+    background-color:rgba(233, 13, 32) ;
+}
+#Contact input{
+    outline: none;
+    border: none;
+    background-color: rgb(142, 21, 31);
+    padding: 5px;
+    margin: 5px 0;
+    color: white;
+    transition: all 1s;
+}
+#Contact input:focus{
+    transform: scale(1.03);
+    
+}
+#Contact textarea{
+    outline: none;
+    border: none;
+    background-color: rgb(142, 21, 31);
+    padding: 5px;
+    margin: 5px 0;
+    color: white;
+    transition: all 1s;
+}
+#Contact textarea:focus{
+    transform: scale(1.03);
+    
+}
+#distanceOfTotal{
+    color:rgb(19, 165, 19);
+    font-size: 24px ;
+}
+#Contact{
+    color: white;
+}
+#Contact button{
+    background-color: rgb(142, 21, 31) ;
+    border-radius: 20px;
+    padding: 5px 15px ;
+    color: white;
+    border: none;
+}
+#Contact button:hover{
+    background-color: white;
+    border-color:rgb(142, 21, 31) ;
+    color: rgb(142, 21, 31) ;
+}
+.icons-container i{
+    color: white;
+}
